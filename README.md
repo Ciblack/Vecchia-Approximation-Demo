@@ -74,4 +74,21 @@ Ce fichier génère un processus gaussien sur une grille \( 90 \times 90 \) (810
 ![Vecchia Approximation Plot](Figures/Comparaison.png)
 
 
+References : 
+ •Le papier original de Vecchia :
+Vecchia, A. V. (1988). Estimation and model identification for continuous spatial processes. J. Roy. Statist. Soc. Ser. B 50 297–312.
+•Etude de l’ordre et du regroupement des données :
+Guinness J. Permutation and Grouping Methods for Sharpening Gaussian Process Approximations. Technometrics. 2018;
+•Pour le calcul optimisé du maximum de vraisemblance avec l’algorithme de « fisher scoring »:
+Guinness, J. (2021). Gaussian process learning via Fisher scoring of Vecchia’s approximation. Statistics and Computing,
+•La construction de la matrice de précision, du calcul bayésien en utilisant Vecchia :
+Datta, A., Banerjee, S., Finley, A. O., & Gelfand, A. E. (2016). Hierarchical nearest-neighbor Gaussian process models for large geostatistical datasets. Journal of the American Statistical Association
+•Pour la prédiction en utilisant l’approximation de Vecchia :
+Katzfuss & guiness 2020, Vecchia approximations of Gaussian-process predictions
+•
+•Généralisation de Vecchia :
+Katzfuss, M., & Guinness, J. (2021). A general framework for Vecchia approximations of Gaussian processes.
+Package GpGp R :
+https://cran.r-project.org/web/packages/GpGp/index.html
+
 ---
