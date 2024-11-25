@@ -64,9 +64,9 @@ Ce fichier génère un processus gaussien sur une grille \( 90 \times 90 \) (810
  Prédiction :  
    - Prédiction exacte avec **`exact_krig`**.  
    - Prédictions approximées avec les méthodes Vecchia :  
-     - \( M = 5 \)  
-     - \( M = 50 \)  
-     - \( M = 100 \)
+     - \( C = 5 \)  
+     - \( C = 50 \)  
+     - \( C = 100 \)
      -   
  Visualisations :  
    Les graphiques générés à partir des prédictions sont enregistrés dans le dossier `/Figures`.
