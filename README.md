@@ -58,18 +58,17 @@ Ce fichier génère un processus gaussien sur une grille \( 90 \times 90 \) (810
   - Portée :  5   
   - Pepite :  2.5   
 
-#### **Étapes de la Simulation**  
-1. **Données Observées** :  
+ Données Observées :  
    Le vecteur \( N \) représente les positions des données observées, correspondant à \( 10\% \) des points totaux.  
 
-2. **Prédiction** :  
+ Prédiction :  
    - Prédiction exacte avec **`exact_krig`**.  
    - Prédictions approximées avec les méthodes Vecchia :  
      - \( M = 5 \)  
      - \( M = 50 \)  
-     - \( M = 100 \)  
-
-3. **Visualisations** :  
+     - \( M = 100 \)
+     -   
+ Visualisations :  
    Les graphiques générés à partir des prédictions sont enregistrés dans le dossier `/figures`.
 
 ---
