@@ -71,7 +71,7 @@ Ce fichier génère un processus gaussien sur une grille \( 90 \times 90 \) (810
  Visualisations :  
    Les graphiques générés à partir des prédictions sont enregistrés dans le dossier `/Figures`.
 
-![Vecchia Approximation Plot](figures/Comparaison.png)
+![Vecchia Approximation Plot](Figures/Comparaison.png)
 
 
 ---
